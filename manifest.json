@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Dynamic Base16",
+  "version": "1.0.0",
+  "description": "Dynamic Firefox base16 theme switcher extension, using native messaging.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dynamic_base16@gnrl_leclerc.org",
+      "strict_min_version": "78.0"
+    }
+  },
+  "icons": {
+    "48": "assets/tinted_48.ico",
+    "96": "assets/tinted_96.ico"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["nativeMessaging", "theme"]
+}
