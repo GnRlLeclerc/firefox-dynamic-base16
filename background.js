@@ -68,7 +68,7 @@ const onMessage = (response) => {
       tab_loading: accent_color,
       tab_selected: background_secondary,
       tab_text: text,
-      toolbar: background,
+      toolbar: background_secondary,
       toolbar_bottom_separator: border,
       toolbar_field: background_selected,
       toolbar_field_border: border,
