@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dynamic Base16",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic Firefox base16 theme switcher extension, using native messaging.",
   "browser_specific_settings": {
     "gecko": {
@@ -10,8 +10,8 @@
     }
   },
   "icons": {
-    "48": "assets/tinted_48.ico",
-    "96": "assets/tinted_96.ico"
+    "48": "assets/tinted_48.png",
+    "96": "assets/tinted_96.png"
   },
 
   "background": {
